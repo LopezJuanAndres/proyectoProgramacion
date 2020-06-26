@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding: 0;
+    border: 0;
+}
+ body{
+    background:url(../Img/imag/fondo4.png) ;
+    background-size: auto;
+    
+ }
+#contenedorGeneral{
+   width:1300px;
+   height:1400px;
+   background:rgba(128, 104, 39, 0.733);
+    background-size: 100% 100%;
+    margin:10px auto;
+    padding: 1em;
+}
+
+#encabezado {
+       height:5%;
+       background:url(../Img/imag/fondo2.jpg) ;
+    background-size: 100% 100%;
+    border-radius:1em ;
+    margin:1em;
+    
+}
+#nav {
+    height:2%;
+ background:url(../Img/imag/fondo2.jpg) ;
+ background-size:100% 100%;
+ border-radius:1em ;
+ margin:1em;
+}
+#contenido {
+    height:80%;
+ background:url(../Img/imag/fondo3.jpg) ;
+ background-size: 100% 100%;
+ border-radius:1em ;
+ margin:1em;
+ padding: 1em;
+}
+#seccion  {
+        height:98%;
+        width: 70%;
+     background:url(../Img/imag/fondo5.jpg) ;
+     background-size: 100% 100%;
+     border-radius:1em ;
+     float:left;
+    } 
+
+    #aside{
+        height:95%;
+        width: 28%;
+     background:url(../Img/imag/fondo5.jpg) ;
+     background-size: 100% 100%;
+     border-radius:1em ;
+     float: right;
+    }
+
+
+#pie{
+    height:5%;
+ background:url(../Img/imag/fondo3.jpg) ;
+ background-size: 100% 100%;
+ border-radius:1em ;
+ margin:1em;
+}
+
+@media screen and (max-width:768px){
+    
+    body{
+        background:url(../Img/imag/fondo4.png) ;
+        background-size: 100% ;
+     }
+    #contenedorGeneral{
+        width:300px;
+   height:600px;
+   background:rgba(128, 104, 39, 0.733);
+   background-size: 100% 100%;
+        margin:10px auto;
+    }
+}
